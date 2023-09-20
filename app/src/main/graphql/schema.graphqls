@@ -1,0 +1,26 @@
+type Query {
+    jobs(input: Param): [Job]
+    hello:String
+}
+
+input Param {
+    type: String!
+}
+
+type Job {
+    title: String!
+
+    company: Company
+
+    description: String!
+}
+
+type Company {
+    name: String
+
+    logoUrl: String
+}
+
+schema {
+    query: Query
+}

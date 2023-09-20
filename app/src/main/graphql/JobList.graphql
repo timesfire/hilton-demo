@@ -1,0 +1,10 @@
+query JobList($key: String!) {
+    jobs(input:{type:$key}){
+        title
+        company{
+            name
+            logoUrl
+        }
+        description
+    }
+}

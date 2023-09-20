@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HiltonDemo</string>
+    <string name="search_hint_txt">search key</string>
+    <string name="search_btn_txt">search</string>
+    <string name="job_title">job title:%1$s</string>
+    <string name="job_description">job description:%1$s</string>
+    <string name="company_name">company name:%1$s</string>
+    <string name="total_jobs_count">"Total jobs count: %1$s "</string>
+    <string name="company_logo">company logo</string>
+</resources>
